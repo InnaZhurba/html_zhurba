@@ -1,0 +1,94 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+<HTML lang="ua">
+
+<head>
+    <meta charset="utf-8">
+    <title>Лабораторна 4</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: rgb(230, 230, 230);
+        }
+    </style>
+</head>
+
+<body>
+    <form action="/somewhere" class="personal_data" align="center">
+        <p>
+            <label>Стать</label>
+            <label>
+            <input type="radio" name="title" value="mr">Ж</label>
+            <label>
+            <input type="radio" name="title" value="mrs">Ч</label>
+        </p>
+        <fieldset>
+            <legend>Контактна інформація</legend>
+            <p>
+                <label>Ім'я</label>
+                <input type="text" name="first_name">
+            </p>
+            <p>
+                <label>Призвище</label>
+                <input type="text" name="last_name">
+            </p>
+            <p>
+                <label>Email</label>
+                <input type="email" name="email">
+            </p>
+            <p>
+                <label>Телефон</label>
+                <input type="tel" name="phone">
+            </p>
+        </fieldset>
+        <p>
+            <label>Пароль</label>
+            <input type="password" name="password">
+        </p>
+        <p>
+            <label>Підтвердіть пароль</label>
+            <input type="password" name="password_confirm">
+        </p>
+        <p>
+            <label>Країна</label>
+            <select name="country">
+            <option selected value>США</option>
+            <option>Україна</option>
+            <option>Польща</option>
+            <option>Греція</option>
+            <option>Румунія</option>
+            <option>Білорусь</option>
+            <option>Росія</option>
+            <option>Молдова</option>
+          </select>
+        </p>
+        <p>
+            <textarea name="some_text_here" rows="8" cols="50" wrap="soft">
+                Місце для побажань.
+            </textarea>
+        </p>
+        <p>
+            <label>
+            <input type="checkbox" name="terms">
+            Я погоджуюсь із <a href="/terms">умовами використання</a>
+          </label>
+        </p>
+        <p>
+            <button>
+            Зареєструватись
+          </button>
+        </p>
+    </form>
+    <form name="choosing" action="" method="get" enctype="application/x-www-form-urlencoded | multipart/form-data | text/plain" target="_blank">
+        <fieldset>
+            <legend>Хто зайвий?</legend>
+            <input type="checkbox" name="music" value="mozart" checked="checked" /> Моцарт<br />
+            <input type="checkbox" name="music" value="betchoven" /> Бетховен<br />
+            <input type="checkbox" name="music" value="bah" /> Бах<br />
+            <input type="checkbox" name="music" value="glinka" /> Глінка<br />
+            <input type="submit" value="OK" />
+            <input type="reset" value="Reset" />
+        </fieldset>
+    </form>
+</body>
+
+</HTML>

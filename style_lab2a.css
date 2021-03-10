@@ -1,0 +1,134 @@
+        body {
+            background: rgb(169, 184, 153);
+            color: #000;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+        }
+        
+        #header {
+            background: #e0b462;
+            width: 100%;
+            height: 55px;
+        }
+        
+        #container {
+            background: #8ab3da;
+            margin: auto auto;
+            text-align: center;
+            width: 80%;
+            height: 415px;
+        }
+        
+        #navigation {
+            background: #d3d496;
+            width: 100%;
+            height: 25px;
+        }
+        
+        #sidebar {
+            background: #9899da;
+            float: left;
+            width: 30%;
+            height: 280px;
+        }
+        
+        #content {
+            background: #c791ac;
+            float: right;
+            width: 70%;
+            height: 280px;
+        }
+        
+        #content-a {
+            background: #91c1c7;
+            float: top;
+            width: 100%;
+            height: 70%;
+        }
+        
+        #content-b {
+            background: #0b6e6e;
+            float: inline-end;
+            width: 100%;
+            height: 30%;
+        }
+        
+        #clear {
+            clear: both;
+        }
+        
+        #footer {
+            background: #00BFFF;
+            width: 100%;
+            height: 55px;
+        }
+        
+        #aa {
+            background: #00BFFF;
+            width: 30%;
+            height: 55px;
+            float: left;
+        }
+        
+        #ba {
+            background: #9dff00;
+            width: 30%;
+            height: 25px;
+            float: left;
+        }
+        
+        #ca {
+            background: #9dff00;
+            width: 30%;
+            height: 55px;
+            float: right;
+        }
+        
+        #left-center {
+            background: #c97dec;
+            width: 20%;
+            height: 25px;
+            float: left;
+        }
+        
+        #right-center {
+            background: #eca67d;
+            width: 20%;
+            height: 25px;
+            float: left;
+        }
+        
+        #ab {
+            background: rgb(29, 97, 119);
+            width: 30%;
+            height: 55px;
+            float: right;
+        }
+        
+        #bb {
+            background: rgb(29, 178, 228);
+            width: 30%;
+            height: 25px;
+            float: right;
+        }
+        
+        #сb {
+            background: rgb(29, 97, 119);
+            width: 30%;
+            height: 55px;
+            float: left;
+        }
+        
+        #abc {
+            background: rgb(165, 221, 160);
+            width: 100%;
+            height: 50%;
+            float: left;
+        }
+        
+        #abd {
+            background: rgb(221, 200, 160);
+            width: 100%;
+            height: 50%;
+            float: left;
+        }
